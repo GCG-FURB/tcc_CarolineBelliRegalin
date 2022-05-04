@@ -1,0 +1,11 @@
+Tutorial para configuração do ambiente de desenvolvimento do aplicativo:
+1) Instalar Flutter, Dart e AndroidStudio (Mais detalhes no tutorial oficial https://docs.flutter.dev/get-started/install)
+2) Baixar o repositório do projeto
+3) Configurar o Hasura (criar conta, fazer o deploy no heroku) conforme o tutorial: https://blog.flutterando.com.br/flutter-hasura-utilizando-o-package-hasura-connect-fa86b1bd04a5
+4) Criar tabelas do banco de dados no Hasura conforme esse diagrama:
+	https://github.com/cregalin/cregalin.github.io/blob/master/Musicando%20ER.drawio%20(3).png
+5) Abrir os fontes do projeto, abrir o arquivo app_module.dart e editar na linha 20 na instância de HasuraConnect, colocando a url do servidor que foi criado no Hasura e feito o deploy no Heroku.
+6) No terminal, navegar até a pasta do projeto e executar o comando "flutter pub get" para instalar as dependências do projeto
+7) Criar um dispositivo virtual no AVD do AndroidStudio
+8) Executar projeto no AndroidStudio
+

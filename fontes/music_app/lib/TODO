@@ -1,0 +1,9 @@
+- Implementar modelo 2 de exercício com reprodução de áudio
+- Exibir caixa de aviso pergunta correta/incorreta
+- Deixar sempre no final
+- Transição de um exercício para outro utilizando o flutter modular (Como fazer isso? Precisa ajustar cada exercício?)
+- adicionar scroll com mais itens
+- compenentizar as telas
+- MobX - estudar e verificar como utilizar
+- ideia de exercício - arrastar e soltar:
+  - Melodia, harmonia, ritmo. O que cada um está fazendo?

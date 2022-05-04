@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "953523079218",
+    "firebase_url": "https://musicando-654a0-default-rtdb.firebaseio.com",
+    "project_id": "musicando-654a0",
+    "storage_bucket": "musicando-654a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953523079218:android:bc57ea3427c7ef5a5f542b",
+        "android_client_info": {
+          "package_name": "com.cregalin.music_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953523079218-5fg7h9fj2hk7kk0nu9p64h2gtjchdfeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cregalin.music_app",
+            "certificate_hash": "67cd189655087c4042246c91a9966368db325016"
+          }
+        },
+        {
+          "client_id": "953523079218-kstmcv3941pe4c3s238824c11p4stoho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cregalin.music_app",
+            "certificate_hash": "87d33964666e124cf5136260ead7e4dcceb969e0"
+          }
+        },
+        {
+          "client_id": "953523079218-itkuo21sdl8v9srn1dde203o3crmmukh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0gEySLyKQ7ZpWiIP9YN9rDskt0pjwUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953523079218-itkuo21sdl8v9srn1dde203o3crmmukh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953523079218:android:f65c28ed1db242835f542b",
+        "android_client_info": {
+          "package_name": "com.example.music_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953523079218-e5hh3k71nej2i0j2b3880s4u43gs2r67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.music_app",
+            "certificate_hash": "87d33964666e124cf5136260ead7e4dcceb969e0"
+          }
+        },
+        {
+          "client_id": "953523079218-ergvt54l7q3h4tl9sea7c0kqrq885s80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.music_app",
+            "certificate_hash": "67cd189655087c4042246c91a9966368db325016"
+          }
+        },
+        {
+          "client_id": "953523079218-itkuo21sdl8v9srn1dde203o3crmmukh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0gEySLyKQ7ZpWiIP9YN9rDskt0pjwUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953523079218-itkuo21sdl8v9srn1dde203o3crmmukh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

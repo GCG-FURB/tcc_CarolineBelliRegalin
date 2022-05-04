@@ -1,0 +1,2223 @@
+mutation insertLevels1 {
+  insert_levels(objects: {
+    image_url: "assets/images/play.png",
+    medal_id: 1,
+    session_id: 1,
+    title: "Partes da música 1",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "O que é a Melodia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "A divisão de Tempo de uma composição musical",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "A introdução de uma música tocada no violino",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "A parte da Música geralmente Cantada ou Solada por um Instrumento Musical",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "O que é a harmonia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "A introdução de uma música tocada no violino",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Combinação dos sons ouvidos simultaneamente, é o agrupamento agradável de sons",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "A parte da Música geralmente Cantada ou Solada por um Instrumento Musical",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "O que é o ritmo?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "A definição de quanto tempo cada parte da melodia continuará à tona",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "A introdução de uma música tocada no violino",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "A parte da Música geralmente Cantada ou Solada por um Instrumento Musical",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }]
+      }
+    }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevels2 {
+  insert_levels(objects: {
+    image_url: "assets/images/play.png",
+    medal_id: 2,
+    session_id: 1,
+    title: "Partes da música 2",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual instrumento é tipicamente melódico?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Triângulo",
+            image_url: "assets/images/medals/triangulo.png",
+            is_correct: false
+          }, {
+            description: "Flauta",
+            image_url: "assets/images/medals/flauta.png",
+            is_correct: true
+          }, {
+            description: "Guitarra",
+            image_url: "assets/images/medals/guitarra.png",
+            is_correct: false
+          }, {
+            description: "Violão",
+            image_url: "assets/images/medals/violao.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual instrumento é tipicamente harmônico?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Bateria",
+            image_url: "assets/images/medals/bateria.png",
+            is_correct: false
+          }, {
+            description: "Triângulo",
+            image_url: "assets/images/medals/triangulo.png",
+            is_correct: false
+          }, {
+            description: "Flauta",
+            image_url: "assets/images/medals/flauta.png",
+            is_correct: false
+          }, {
+            description: "Violão",
+            image_url: "assets/images/medals/violao.png",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual instrumento é tipicamente rítmico?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Bateria",
+            image_url: "assets/images/medals/bateria.png",
+            is_correct: true
+          }, {
+            description: "Flauta",
+            image_url: "assets/images/medals/flauta.png",
+            is_correct: false
+          }, {
+            description: "Guitarra",
+            image_url: "assets/images/medals/guitarra.png",
+            is_correct: false
+          }, {
+            description: "Violão",
+            image_url: "assets/images/medals/violao.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "As 7 Notas Musicais, em ordem crescente, são:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Do, Re, Mi, Sol, Fa, La, Si",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Do, Mi, Re, Fa, Sol, La, Si",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Do, Re, Mi, Fa, La, Sol, Si",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Do, Re, Mi, Fa, Sol, La, Si",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Você sabe qual é a utilidade da pauta musical?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Desenhar quantas notas a música possui ",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Representar a música em sua forma escrita",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Representar apenas as alterações da música",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "A Pauta Musical (ou Pentagrama) é formada por:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pauta.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "4 Linhas e 6 Espaços",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "5 Linhas e 3 Espaços",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "5 Espaços e 4 Linhas",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "5 Linhas e 4 Espaços",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      }]
+      }
+    }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevels3 {
+  insert_levels(objects: {
+    image_url: "assets/images/play.png",
+    medal_id: 3,
+    session_id: 1,
+    title: "Som",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "A música possui vários sons. O que é som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Ondas produzidas por qualquer corpo capaz de vibrar",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Ondas produzidas apenas pelos instrumentos",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Vibração produzida apenas pela voz",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "O que é preciso para produzir som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Água",
+            image_url: "assets/images/exercises/agua.png",
+            is_correct: false
+          }, {
+            description: "Vidro",
+            image_url: "assets/images/exercises/vidro.png",
+            is_correct: false
+          }, {
+            description: "Vibração",
+            image_url: "assets/images/exercises/vibracao.png",
+            is_correct: true
+          }, {
+            description: "Luz",
+            image_url: "assets/images/exercises/luz.png",
+            is_correct: false
+          }]
+        }
+    }]
+      }
+    }) {
+    returning {
+      id
+    }
+  }
+}
+
+
+mutation insertLevels4 {
+  insert_levels(objects: {
+    image_url: "assets/images/play.png",
+    medal_id: 3,
+    session_id: 1,
+    title: "Som",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "A música possui vários sons. O que é som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Ondas produzidas por qualquer corpo capaz de vibrar",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Ondas produzidas apenas pelos instrumentos",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Vibração produzida apenas pela voz",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "O que é preciso para produzir som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Água",
+            image_url: "assets/images/exercises/agua.png",
+            is_correct: false
+          }, {
+            description: "Vidro",
+            image_url: "assets/images/exercises/vidro.png",
+            is_correct: false
+          }, {
+            description: "Vibração",
+            image_url: "assets/images/exercises/vibracao.png",
+            is_correct: true
+          }, {
+            description: "Luz",
+            image_url: "assets/images/exercises/luz.png",
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "Quais são os cinco elementos que formam o som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Timbre, intensidade, altura, densidade e duração",
+            is_correct: true
+          }, {
+            description: "Melodia, intensidade, altura, densidade e duração",
+            is_correct: false
+          }, {
+            description: "Melodia, intensidade, altura, densidade e harmonia",
+            is_correct: false
+          }, {
+            description: "Melodia, intensidade, altura, densidade e ritmo",
+            is_correct: false
+          }]
+        }
+    }]
+      }
+    }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel5 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 3,
+    session_id: 1,
+    title: "Propriedades do som",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "O que é timbre?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "É o som característico de um instrumento",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "É o som que o instrumento faz",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "É a nota mais aguda do instrumento",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "O que se pode identificar através do timbre?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Se um som é forte ou fraco",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Se um som é de uma flauta ou  de um violão",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Se um som é agudo ou grave ",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "O que a intensidade de um som permite distinguir?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Se um som é forte (alta intensidade) ou fraco (baixa intensidade)",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Se um som é alto (alta intensidade) ou baixo (baixa intensidade)",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Se um som é agudo (alta intensidade) ou grave (baixa intensidade)",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "O que a altura de um som permite distinguir?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "Se um som é forte (alta intensidade) ou fraco (baixa intensidade)",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Se um som é alto (alta intensidade) ou baixo (baixa intensidade)",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Se um som é agudo (fininho, alto) ou grave (grosso, baixo)",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "O que a densidade indica?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "A quantidade de notas musicais que existem em uma música",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Um maior ou menor número de sons simultâneos",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "O tempo que o som permanece em nossos ouvidos, isto é, se o som é curto ou longo",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "O que é duração?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1,
+        responses: {
+          data: [{
+            description: "O tempo que o som permanece em nossos ouvidos, isto é, se o som é curto ou longo",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Um maior ou menor número de sons simultâneos",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "A quantidade de sons que existem em uma música",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }]
+      }
+    }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel6 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 5,
+    session_id: 2,
+    title: "Claves",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Você sabe qual a utilidade da clave musical?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Indicar a posição das notas musicais na pauta",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Indicar a tonalidade da música",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Indicar  o timbre da música",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a clave?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/clavesol.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Clave de sol",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Clave de dó",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Clave de fá",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    },
+    {
+      audio_url: null,
+      description: "Qual é a clave?",
+      feedback_correct_description: "Parabéns! Resposta correta!",
+      feedback_incorrect_description: "Oh não! Resposta incorreta!",
+      help_description: null,
+      image_url: "assets/images/exercises/clavefa.png",
+      response_type: 0,
+      responses: {
+        data: [{
+          description: "Clave de sol",
+          image_url: null,
+          is_correct: false
+        }, {
+          description: "Clave de dó",
+          image_url: null,
+          is_correct: false
+        }, {
+          description: "Clave de fá",
+          image_url: null,
+          is_correct: true
+        }]
+      }
+    },
+    {
+      audio_url: null,
+      description: "Qual é a clave?",
+      feedback_correct_description: "Parabéns! Resposta correta!",
+      feedback_incorrect_description: "Oh não! Resposta incorreta!",
+      help_description: null,
+      image_url: "assets/images/exercises/clavedo.png",
+      response_type: 0,
+      responses: {
+        data: [{
+          description: "Clave de sol",
+          image_url: null,
+          is_correct: false
+        }, {
+          description: "Clave de dó",
+          image_url: null,
+          is_correct: true
+        }, {
+          description: "Clave de fá",
+          image_url: null,
+          is_correct: false
+        }]
+      }
+    }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel6 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 6,
+    session_id: 2,
+    title: "Notas musicais 1",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Quais são as três partes que formam uma figura musical?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/partesnota.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Círculo, traço e haste",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Cabeça, haste, colchete",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Círculo, traço e colchete",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Cabeça, traço e colchete",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semibreve.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/minima.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/seminima.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/colcheia.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Colcheia",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semicolcheia.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/fusa.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semifusa",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da figura?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semifusa.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semifusa",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+
+mutation insertLevel7 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 7,
+    session_id: 2,
+    title: "Notas musicais 2",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual é a figura correspondente a semibreve?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/semibreve.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/minima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/seminima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a figura correspondente a mínima?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/semibreve.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/minima.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/seminima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a figura correspondente a semínima?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/semibreve.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/minima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/seminima.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a figura correspondente a colcheia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/colcheia.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/semicolcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a figura correspondente a semicolcheia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/semicolcheia.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a figura correspondente a fusa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/semicolcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a figura correspondente a semifusa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/semifusa.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/minima.png",
+            is_correct: false
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel8 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 8,
+    session_id: 2,
+    title: "Notas musicais 3",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual a ordem decrescente das figuras de som?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "Semibreve, fusa, semifusa, semibreve, mínima, colcheia, semínima, semicolcheia, semifusa, fusa",
+            is_correct: false
+          }, {
+            description: "Semibreve, fusa, semifusa, semibreve, mínima, semínima, colcheia, semicolcheia, semifusa, fusa",
+            is_correct: false
+          }, {
+            description: "Colcheia, fusa, semifusa, semibreve, mínima, semicolcheia, fusa, semifusa",
+            is_correct: false
+          }, {
+            description: "Semibreve, fusa, semifusa, semibreve, mínima, semínima, colcheia, semicolcheia, fusa, semifusa",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semibreve.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "2",
+            is_correct: false
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/minima.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "2",
+            is_correct: true
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/seminima.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: true
+          }, {
+            description: "2",
+            is_correct: false
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/colcheia.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "2",
+            is_correct: false
+          }, {
+            description: "6",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semicolcheia.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/fusa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "1/8",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da nota?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/semifusa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "1/16",
+            is_correct: true
+          }]
+        }
+      },
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation updateLevel9 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 9,
+    session_id: 2,
+    title: "Pausas 1",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semibreve.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-minima.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+    }, {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-seminima.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semínima",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-colcheia.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Colcheia",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semicolcheia.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semibreve",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Mínima",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-fusa.jpg",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: true
+          }, {
+            description: "Semifusa",
+            image_url: null,
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o nome da Figura correspondente à Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semifusa.png",
+        response_type: 0,
+        responses: {
+          data: [{
+            description: "Semicolcheia",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Fusa",
+            image_url: null,
+            is_correct: false
+          }, {
+            description: "Semifusa",
+            image_url: null,
+            is_correct: true
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel10 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 10,
+    session_id: 3,
+    title: "Pausas 2",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual é a pausa correspondente a mínima?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-semibreve.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-minima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-seminima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a mínima?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-semibreve.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-minima.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-seminima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a semínima?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-semibreve.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-minima.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-seminima.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a colcheia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-colcheia.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-semicolcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a semicolcheia?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-semicolcheia.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a fusa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-semicolcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-semifusa.png",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é a pausa correspondente a semifusa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: null,
+        response_type: 1
+        responses: {
+          data: [{
+            image_url: "assets/images/exercises/pausa-colcheia.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-semifusa.png",
+            is_correct: true
+          }, {
+            image_url: "assets/images/exercises/pausa-fusa.png",
+            is_correct: false
+          }, {
+            image_url: "assets/images/exercises/pausa-minima.png",
+            is_correct: false
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+
+mutation insertLevel11 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 11,
+    session_id: 2,
+    title: "Notas musicais 3",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semibreve.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "2",
+            is_correct: false
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-minima.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "2",
+            is_correct: true
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-seminima.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: true
+          }, {
+            description: "2",
+            is_correct: false
+          }, {
+            description: "4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-colcheia.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "2",
+            is_correct: false
+          }, {
+            description: "6",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semicolcheia.png",
+        response_type: 2,,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "16",
+            is_correct: false
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-fusa.jpg",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "1/8",
+            is_correct: true
+          }]
+        }
+      },
+      {
+        audio_url: null,
+        description: "Qual é o valor da Pausa?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/pausa-semifusa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "1",
+            is_correct: false
+          }, {
+            description: "1/2",
+            is_correct: true
+          }, {
+            description: "1/4",
+            is_correct: false
+          }, {
+            description: "1/16",
+            is_correct: true
+          }]
+        }
+      },
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel12 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 13,
+    session_id: 4,
+    title: "Clave de sol 2",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/fa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: true
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/sol.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: true
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/la.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/sol.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: true
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/la.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/fa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: true
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel13 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 13,
+    session_id: 4,
+    title: "Clave de sol 3",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/do.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "DÓ",
+            is_correct: true
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/sol.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: true
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/fa.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: true
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/si.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SI",
+            is_correct: true
+          }, {
+            description: "LÁ",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/la.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "LÁ",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Identifique a nota musical:",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/si.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "FÁ",
+            is_correct: false
+          }, {
+            description: "SOL",
+            is_correct: false
+          }, {
+            description: "si",
+            is_correct: true
+          }]
+        }
+      }
+    ]}
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
+mutation insertLevel14 {
+  insert_levels(objects: {
+    image_url: "assets/images/introduction.png",
+    medal_id: 14,
+    session_id: 4,
+    title: "Intervalos 2",
+    exercises: {
+      data: [{
+        audio_url: null,
+        description: "Que intervalo é este?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/2m-ascendente.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "3m",
+            is_correct: false
+          }, {
+            description: "2m",
+            is_correct: true
+          }, {
+            description: "4A",
+            is_correct: false
+          }, {
+            description: "4j",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Que intervalo é este?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/3m-ascendente.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "3m",
+            is_correct: true
+          }, {
+            description: "2m",
+            is_correct: false
+          }, {
+            description: "4A",
+            is_correct: false
+          }, {
+            description: "4j",
+            is_correct: false
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Que intervalo é este?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/4j-ascendente.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "3m",
+            is_correct: false
+          }, {
+            description: "2m",
+            is_correct: false
+          }, {
+            description: "4A",
+            is_correct: false
+          }, {
+            description: "4j",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Que intervalo é este?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/5J-ascendente.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "3m",
+            is_correct: false
+          }, {
+            description: "2m",
+            is_correct: false
+          }, {
+            description: "4A",
+            is_correct: false
+          }, {
+            description: "5J",
+            is_correct: true
+          }]
+        }
+      }, {
+        audio_url: null,
+        description: "Que intervalo é este?",
+        feedback_correct_description: "Parabéns! Resposta correta!",
+        feedback_incorrect_description: "Oh não! Resposta incorreta!",
+        help_description: null,
+        image_url: "assets/images/exercises/6m-ascendente.png",
+        response_type: 2,
+        responses: {
+          data: [{
+            description: "3m",
+            is_correct: false
+          }, {
+            description: "2m",
+            is_correct: false
+          }, {
+            description: "4A",
+            is_correct: false
+          }, {
+            description: "6m",
+            is_correct: true
+          }]
+        }
+      }]
+    }
+  }) {
+    returning {
+      id
+    }
+  }
+}
+
